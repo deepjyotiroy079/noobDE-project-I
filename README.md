@@ -1,7 +1,9 @@
-# noobDE-project-1: Covid Analysis
+# noobDE-project-1: Covid Data
 
 - move the data to hdfs using -copyFromLocal
-
+```bash
+hdfs dfs -copyFromLocal ./data/covid.csv /data/covid.csv
+```
 ## Starting the pyspark
 
 ```bash
